@@ -1,0 +1,36 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script src="ddrop.js"></script>
+</head>
+<body bgcolor="skyblue" onload="branch(),year()" >
+<form action="StoreStudent" method="post">
+<table align="center">
+<tr><h1 align="center">DIAL INFO</h1></tr>
+<tr><h2 align="center">STUDENT REGISTRATION FORM</h2></tr>
+<tr>
+<td>NAME:</td><td><input type="text" name="uname"></input></td></tr>
+<tr>
+<td>ROLLNO.:</td><td><input type="text" name="roll"></input></td></tr>
+<tr>
+<td>SERIAL NO.</td><td><input type="text" name="serial"></input></td></tr>
+<tr>
+<td>CONTACT NO.</td><td><input type="text" name="num"></input> </td></tr>
+<tr>
+<td>BRANCH</td><td><select id="bid" name="branch"></select></td></tr>
+<tr>
+<td>YEAR</td><td><select id="year_id" name="year" onchange="semister()"></select></td></tr>
+<tr>
+<td>SEMESTER</td><td><select id="semid" name="sem"></select></td></tr>
+<tr>
+<td>TOTAL AMOUNT</td><td><input type="text" name="tamount"></input></td></tr>
+<tr>
+<td>DUE AMOUNT</td><td><input type="text" name="damount"></input></td></tr>
+<tr>
+<td><input type="submit" value="SUBMIT"></input></td><td><a href="Home.jsp"><input type="button" value="BACk"></input></a></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
